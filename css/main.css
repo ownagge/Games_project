@@ -1,0 +1,416 @@
+body{
+    
+    background-color: #000e16;
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Love Light;
+}
+
+h4{
+    padding-top: 10px;
+}
+
+a{
+    font-family: Open Sans;
+}
+
+/*Шапка*/
+.text_zag {
+    font-family: Love Light;
+    font-size: 204px;
+    font-weight: 700;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.text_zagsv{
+    font-family: Love Light;
+    font-size: 204px;
+    font-weight: 700;
+    color: #ffc600;
+    font-weight: bold;
+}
+
+.text_podz{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.text_podz2{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffc600;
+    padding-top: 30px;
+}
+
+.image {
+	position: relative;
+    background-image: url(../img/menus.png);
+	width: 100%; /* for IE 6 */
+    height: 730px;
+    margin-top: 68px;
+}
+
+.zag__h2 {
+    font-family: 'Open Sans';
+	position: absolute;
+    font-size: 60px;
+    color:#ffffff;
+	top	:0px;
+	left: 0;
+	width: 100%;
+    line-height: 0.9em;
+}
+
+.zag__h3{
+    font-family: 'Open Sans';
+    font-size: 80px;
+    line-height: 0.9em;
+    font-weight: bold;
+    padding-left: 130px;
+}
+
+.zag__h4{
+    font-family: 'Open Sans';
+    font-size: 50px;
+    line-height: 0.9em;
+    color: #646464;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-left: 130px;
+}
+
+.text_zagwe{
+    font-family: 'Open Sans';
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffc600;
+    font-weight: bold;
+}
+
+/*Меню*/
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.mainmenu {
+    padding-top:205px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.mainmenu a {
+    float: left;
+    display: block;
+    color: #ffc600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .mainmenu a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+  }
+
+  /*About*/
+.about{
+    width: 68%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.text__lorem{
+    font-family: 'Open Sans';
+    display: inline-block;
+    font-style:italic;
+    font-size: 16px; 
+    padding-top: 38px;   
+}
+
+.text__lorem2{
+    font-family: 'Open Sans';
+    text-align: start;
+    font-size: 16px;
+    padding-left: 20px; 
+}
+
+.icon__polosa{
+    position: absolute;
+    padding-top: 70px;
+    
+}
+
+.icon__polosagor{
+    padding-left: 340px;
+}
+
+.dj{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 62px;
+}
+
+.text_App{
+    font-family: 'Open Sans';
+    font-style:italic;
+    font-size: 12px;
+}
+
+/*Cекция featured*/
+
+.zag__h1{
+    font-family: 'Open Sans';
+    font-size: 40px;
+    line-height: 0.9em;
+    font-weight: bold;
+    padding-left: 130px;
+}
+
+.text_zagwe2{
+    font-family: 'Open Sans';
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffc600;
+    font-weight: bold;
+}
+
+.Featured{
+    width: 68%;
+    margin: auto;
+    background-color: #ffffff;
+    padding-top: 62px;
+}
+/*Меню feature*/
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.featmenu {
+    padding-top:17px;
+    padding-left: 90px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.featmenu a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .featmenu a:hover {
+    text-decoration: underline;
+}
+/*Slick*/
+
+.img__slick1{
+    width: 1295px;
+    height: 800px;
+}
+
+.img__slick2{
+    width: 1295px;
+    height: 800px;
+}
+
+.img__slick3{
+    width: 1295px;
+    height: 800px;
+}
+
+.img__slick4{
+    width: 1295px;
+    height: 800px;
+}
+/*Секция Strategic Process*/
+
+.strategic{
+    width: 68%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.zag__h1{
+    padding-top: 67px;
+}
+
+.text__lorem3{
+    font-family: 'Open Sans';
+    text-align: start;
+    font-size: 16px;
+}
+
+.strategic__1{
+    padding-top: 40px;
+    width: 424px;
+    height: 347px;
+}
+
+.strategic__2{
+    width: 461px;
+    height: 347px;
+}
+
+.our{
+    padding-top: 75px;
+    padding-right: 40px;
+}
+
+.our__2{
+    padding-top: 35px;
+}
+
+.strategic__3{
+    padding-bottom: 30px;
+    width: 424px;
+    height: 347px;
+}
+
+.text__lorem4{
+    font-family: 'Open Sans';
+    text-align: start;
+    font-size: 16px;
+}
+.text__lorem1{
+    font-family: 'Open Sans';
+    font-style:italic;
+    font-size: 16px; 
+    padding-top: 38px;
+    text-align: start;   
+}
+
+/*Секция Ourteam*/
+
+.Ourteam{
+    padding-top: 80px;
+    width: 68%;
+    margin: auto;
+    background-color: #ffffff;
+    padding-bottom: 150px;
+}
+
+.text_zagwe3{
+    display: inline;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffc600;
+    font-weight: bold;
+}
+
+.zag__h8{
+    font-family: 'Open Sans';
+    font-size: 40px;
+    line-height: 0.9em;
+    font-weight: bold;
+    padding-left: 50px;
+    color: #000000;
+}
+
+.foto{
+    padding-top: 35px;
+    position: relative;
+    display: block;
+    padding-left: 338px;
+}
+
+.foto1{
+    padding-right: 25px;
+}
+
+.foto2{
+    padding-right: 25px; 
+}
+
+.foto3{
+    padding-right: 25px;   
+}
+
+.foto4{  
+    padding-right: 25px;  
+}
+
+.john{
+    position: absolute;
+    display: inline-block;
+    color: black;
+    padding-left: 60px;
+    padding-top: 195px;
+}
+
+/*Секция Тестимо*/
+
+.Testimo{
+    padding-top: 80px;
+    width: 68%;
+    margin: auto;
+    background-color: #000000;
+}
+
+.zag__h7{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    line-height: 0.9em;
+    padding-left: 50px;
+    color: #ffffff;
+    padding-bottom: 87px;
+}
+
+.text_zagwe4{
+    display: inline;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffc600;
+    font-weight: bold;
+}
+
+.text__lorem5{
+    display: inline;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color:#ffffff;
+    padding-top: 88px;
+}
+.text__lorem4{
+    display: inline;
+    font-family: 'Open Sans';
+    font-style:italic;
+    font-size: 16px; 
+    padding-top: 58px; 
+    color:#ffffff; 
+}
+
+.icon__polosagor2{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 110px;
+}
+
+.icon__polosagor3{
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 110px;
+    top: 0;
+}
